@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{testlayout}">
+<head>
+    <meta charset="UTF-8">
+    <title>测试欢迎页</title>
+</head>
+<body>
+    <div layout:fragment="content" class="welcome">
+        <p th:text="${testmessage}">this is content</p>
+    </div>
+    <hr>
+     <div layout:fragment="testcontent" class="welcome">
+        <p th:text="${testmessage2}">this is content</p>
+    </div>
+</body>
+</html>
