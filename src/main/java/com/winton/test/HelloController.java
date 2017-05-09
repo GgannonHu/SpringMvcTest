@@ -26,7 +26,7 @@ public class HelloController {
 	public String testwelcome(Model model) {
 
 		String message = "测试";
-		String message2 = "测试3";
+		String message2 = "测试2";
 
 		model.addAttribute("testmessage", message);
 		model.addAttribute("testmessage2", message2);
